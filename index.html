@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good Food</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo"></div>
+      <div class="titre">
+        <div id="good">
+          <div id="g">G</div>
+          <div id="ood">OOD</div>
+        </div>
+        <div id="good2">
+          <div id="f">F</div>
+          <div id="ood2">OOD</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="group">
+      <div class="food" id="vegetables">
+        <label for="choice1">Légumes</label>
+        <select class="select1" id="choice1"></select>
+        <label for="quant1">Quantité en grammes</label>
+        <select class="select2" id="quant1"></select>
+        <button type="button" class="button" id="total1">Valider</button>
+        <div class="text" id="text1"></div>
+      </div>
+
+      <div class="food" id="cereals">
+        <label for="choice2">Céréales / Légumineuses (cuites)</label>
+        <select class="select1" id="choice2"></select>
+        <label for="quant2">Quantité en grammes</label>
+        <select class="select2" id="quant2"></select>
+        <button type="button" class="button" id="total2">Valider</button>
+        <div class="text" id="text2"></div>
+      </div>
+
+      <div class="food" id="fruits">
+        <label for="choice3">Fruits</label>
+        <select class="select1" id="choice3"></select>
+        <label for="quant3">Quantité en grammes</label>
+        <select class="select2" id="quant3"></select>
+        <button type="button" class="button" id="total3">Valider</button>
+        <div class="text" id="text3"></div>
+      </div>
+
+      <div class="food" id="meat">
+        <label for="choice4">Viandes / Charcuterie</label>
+        <select class="select1" id="choice4"></select>
+        <label for="quant4">Quantité en grammes</label>
+        <select class="select2" id="quant4"></select>
+        <button type="button" class="button" id="total4">Valider</button>
+        <div class="text" id="text4"></div>
+      </div>
+    </div>
+    <div class="group">
+      <div class="food" id="seafood">
+        <label for="choice5">Poissons / Crustacés</label>
+        <select class="select1" id="choice5"></select>
+        <label for="quant5">Quantité en grammes</label>
+        <select class="select2" id="quant5"></select>
+        <button type="button" class="button" id="total5">Valider</button>
+        <div class="text" id="text5"></div>
+      </div>
+      <div class="food" id="drinks">
+        <label for="choice6">Boissons</label>
+        <select class="select1" id="choice6"></select>
+        <label for="quant6">Quantité en centilitre</label>
+        <select class="select2" id="quant6"></select>
+        <button type="button" class="button" id="total6">Valider</button>
+        <div class="text" id="text6"></div>
+      </div>
+
+      <div class="food" id="dishes">
+        <label for="choice7">Plats cuisinés</label>
+        <select class="select1" id="choice7"></select>
+        <label for="quant7">Quantité en grammes</label>
+        <select class="select2" id="quant7"></select>
+        <button type="button" class="button" id="total7">Valider</button>
+        <div class="text" id="text7"></div>
+      </div>
+      <div class="food" id="condiments">
+        <label for="choice8">Condiments / Sauces</label>
+        <select class="select1" id="choice8"></select>
+        <label for="quant8">Quantité en grammes</label>
+        <select class="select2" id="quant8"></select>
+        <button type="button" class="button" id="total8">Valider</button>
+        <div class="text" id="text8"></div>
+      </div>
+    </div>
+    <button type="button" id="totalAll">Total des calories!</button>
+    <div id="textAll"></div>
+    <div class="calnec">
+      Calories nécessaires / Jour (en kcal => kilocalories)
+    </div>
+    <div class="moyenne">
+      <div class="act">PERSONNE ACTIVE</div>
+      <div class="sed">PERSONNE SÉDENTAIRE</div>
+      <div class="hs">Homme<br />2200 à 2600 kcal</div>
+      <div class="fs">Femme<br />1600 à 2000 kcal</div>
+      <div class="ha">Homme<br />2400 à 3000 kcal</div>
+      <div class="fa">Femme<br />1800 à 2400 kcal</div>
+    </div>
+
+    <script src="./index2.js"></script>
+  </body>
+</html>
